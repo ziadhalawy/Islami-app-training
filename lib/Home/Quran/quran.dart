@@ -139,7 +139,7 @@ class quranTap extends StatelessWidget {
                     horizontal:
                         BorderSide(color: myColors.primaryColor, width: 3))),
             child: Text(
-              'Sura Name',
+              'اسم السورة',
               style: Theme.of(context).textTheme.headline5,
             ),
           ),

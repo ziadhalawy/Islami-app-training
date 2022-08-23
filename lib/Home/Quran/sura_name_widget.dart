@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:untitled1/Home/Quran/sura_details.dart';
 
 class suraName extends StatelessWidget {
-  String title = '';
-  int index = 0;
+  String title;
+
+  int index;
 
   suraName(this.title, this.index);
 
@@ -19,7 +20,7 @@ class suraName extends StatelessWidget {
         padding: EdgeInsets.symmetric(vertical: 2),
         child: Text(
           title,
-          style: Theme.of(context).textTheme.headline6,
+          style: Theme.of(context).textTheme.headline5,
         ),
       ),
     );

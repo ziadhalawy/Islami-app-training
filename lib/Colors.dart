@@ -8,6 +8,8 @@ class myColors {
       canvasColor: myColors.pageColor,
       primaryColor: pageColor,
       textTheme: TextTheme(
+          headline6: TextStyle(
+              fontSize: 15, color: Colors.grey, fontWeight: FontWeight.w600),
           headline4: TextStyle(
               fontSize: 34, color: Colors.grey, fontWeight: FontWeight.w600)),
       bottomNavigationBarTheme: BottomNavigationBarThemeData(
@@ -20,6 +22,7 @@ class myColors {
       ),
       bottomAppBarColor: Colors.white,
       appBarTheme: AppBarTheme(
+          iconTheme: IconThemeData(color: Colors.black),
           backgroundColor: Colors.transparent,
           elevation: 0,
           centerTitle: true,
